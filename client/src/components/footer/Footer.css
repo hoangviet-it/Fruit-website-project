@@ -1,0 +1,109 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.background {
+    width: 100%;
+    object-fit: cover;
+    height: 396px;
+}
+
+.container-ft {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+
+.wrap-footer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+.icon-mxh{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.item-mxh img{
+    margin: 5px 15px;
+    color: #fff;
+}
+
+.icon-mxh h3{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.info{
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info .col1{
+    padding: 0 15px;
+}
+
+.info .col1 input{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.info .col1 button{
+    background-color: #00FF00;
+    opacity: 1;
+    padding: 0px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.info .col1 button:hover{
+    opacity: 0.8;
+}
+
+.info .col2,
+.info .col3{
+    line-height: 40px;
+}
+
+.info .col2 li {
+   width: 200px;
+}
+
+.info .col2 h2 {
+    margin-left: 30px;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 5px;
+
+}
+
+/*đổi sang màu trắng*/
+.footer .icon-footer{    
+    filter: brightness(0) invert(1);
+   -webkit-filter: brightness(0) invert(1);
+}

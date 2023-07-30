@@ -1,0 +1,200 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.item-tt-line-ord-ad {
+    width: 220px;
+}
+
+.container-ord-mana-ad {
+    padding-bottom: 70px;
+}
+
+.note-mana-ord {
+    margin-top: 10px;
+}
+
+.container-ord-mana-ad table {
+    width: 100%;
+}
+
+.container-ord-mana-ad table tr {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.container-ord-mana-ad table .row-table-ord-ad:hover {
+    background-color: rgb(249, 249, 249);
+    cursor: pointer;
+}
+
+.container-ord-mana-ad table tr th {
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.container-ord-mana-ad table tr td {
+    padding: 15px 0;
+}
+
+.close-update-status-ord-ad {
+    position: fixed;
+    width: 350px;
+    height: 210px;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-30%);
+    padding: 20px;
+    text-align: center;
+    transition: linear 0.3s;
+}
+
+.update-status-ord-ad {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    position: fixed;
+    width: 350px;
+    height: 210px;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-30%);
+    padding: 20px;
+    text-align: center;
+    transition: linear 0.3s;
+    z-index: 1000;
+}
+
+.update-status-ord-ad h5 {
+    border-bottom: 2px solid var(--color-main);
+    padding-bottom: 10px;
+}
+
+.update-status-ord-ad select {
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    height: 34px;
+    font-size: 15px;
+    margin: 10px 20px 10px 0;
+}
+
+.btn-update-status-ord {
+    background-color: var(--color-main);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn-update-status-ord:hover {
+    background-color: #88d325;
+}
+
+.btn-close-update-sta-ord {
+    background-color: #3e3eff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-close-update-sta-ord:hover {
+    background-color: #5a5afe;
+}
+
+.filter-status-ord-ad {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.filter-status-ord-ad select {
+    outline: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 110px;
+    height: 30px;
+}
+
+.detail-order-mana-ad {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-detail-ord-ad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf-detail-ord-ad {
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.inf-detail-ord-ad span {
+    font-weight: 500;
+}
+
+.table-pro-detail-prrd-ad {
+    box-shadow: 0px 0px 6px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.table-pro-detail-prrd-ad table tr td {
+    padding: 0 20px;
+    border-bottom: 1px solid #bbb;
+}
+
+.update-sta-ord-ad {
+    margin-left: 60px;
+    margin-right: 30px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.tt-and-btn-detail-upd-ad {
+    display: flex;
+    align-items: center;
+}
+
+.loadmore-ord-ad {
+    margin-top: 20px;
+}
+
+.createPro-and-title input {
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    right: 120px;
+    outline: none;
+    border: 2px solid var(--color-main);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-top: -5px;
+}
+
+.tickNewOrd {
+    font-weight: bold;
+}
+
+.bg-disa-black::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: 900;
+}

@@ -1,0 +1,202 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.title-line-create-pro-ad {
+    width: 96.4%;
+    height: 50px;
+    margin-left: 20px;
+    border-bottom: 2px solid var(--color-main);
+    margin-top: 85px;
+}
+
+.item-tt-line-cre-pro-ad {
+    background-color: var(--color-main);
+    width: 200px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 50px;
+}
+
+.create_product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.create_product label {
+    font-weight: 500;
+}
+
+.create_product .label-create {
+    margin-left: 30px;
+}
+
+.upload{
+    max-width: 350px;
+    height: 400px;
+    width: 100%;
+    border: 2px solid var(--color-main);
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+#file_up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+#file_up::before{
+    content: 'Thêm ảnh';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: var(--color-main);
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+#file_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+#file_img  span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background-color: #fff;
+    border: 1px solid #888;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+}
+
+#file_img  span:hover{
+    background-color: #999;
+    color: #fff;
+}
+
+.form-create{
+    flex: 1;
+}
+
+.row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.row span {
+    display: inline-block;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.create_product .form-create input,
+.create_product .form-create select {
+    width: 300px;
+    min-height: 40px;
+    padding: 0 5px;
+    margin-left: 30px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.label-origin {
+    margin-top: 20px;
+}
+
+.create_product .form-create textarea {
+    width: 650px;
+    min-height: 40px;
+    padding: 0 5px;
+    margin-left: 40px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 10px;
+}
+
+.btn-create-pro {
+    width: 90px;
+    height: 40px;
+    background-color: var(--color-main);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 7px 7px 6px #aaa;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.btn-back-pro {
+    background-color: #3399FF;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 1.2em;
+    box-shadow: 7px 7px 6px #aaa;
+    cursor: pointer;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.btn-create-pro:hover,
+.btn-back-pro:hover{
+    box-shadow: 0px 0px 6px #777;
+    transition: linear 0.2s;
+}
+
+.row-cate-pro-ad {
+    margin-top: 40px;
+}
+
+.select-cre-pro-ad {
+    margin-left: 10px;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.btn-form-create-pro-ad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}

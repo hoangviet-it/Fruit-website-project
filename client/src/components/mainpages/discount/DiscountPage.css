@@ -1,0 +1,53 @@
+:root {
+    --color-main: #7ec522;
+}
+
+.container-discountpage {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.row-list-disc-page {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-main);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 6px 0;
+}
+
+.item-cate-disc-page {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.item-cate-disc-page:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+}
+
+.wrap-card-pro-disc {
+    margin-top: 20px;
+}
+
+.card-pro-discountPage {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.list-cate-page-disc {
+    margin-top: 10px;
+}
+
+.list-cate-page-disc h3 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}

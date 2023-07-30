@@ -1,0 +1,35 @@
+.container-intro {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 20PX;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.container-intro h4 {
+    color: #009900;
+}
+
+.container-intro h3 {
+    color: #FF6600;
+    margin-top: -20px;
+}
+
+.content1-intro {
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+.content1-intro img {
+    width: 400px;
+}
+
+.item2-content1 {
+    margin-left: 25px;
+}
+
+.content2-intro {
+    margin-top: 30px;
+}
